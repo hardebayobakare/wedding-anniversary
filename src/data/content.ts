@@ -120,6 +120,16 @@ export const reasons = [
   { icon: "🕊️", title: "Your Peace", text: "Being near you feels like coming home." },
 ];
 
+// A little surprise gift link (e.g. an e-gift card). Replace `url`
+// with your real link before sending the site — that's the only
+// thing you need to change here.
+export const giftCard = {
+  heading: "One More Thing…",
+  subtext: "A little something extra, just for you.",
+  buttonLabel: "Open Your Gift",
+  url: "https://example.com/REPLACE-WITH-YOUR-GIFT-CARD-LINK",
+};
+
 // Final closing section.
 export const finalNote = {
   heading: "Here's to forever with you.",

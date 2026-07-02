@@ -28,8 +28,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${playfair.variable} ${poppins.variable}`}>
-      <body className="min-h-screen bg-[var(--color-cream)] font-body text-[var(--color-charcoal)] antialiased">
+    <html lang="en" className={`${playfair.variable} ${poppins.variable}`} suppressHydrationWarning>
+      {/* suppressHydrationWarning on html/body only ignores attribute
+          mismatches caused by browser extensions (e.g. Grammarly) that
+          inject their own attributes before React hydrates — it does
+          not hide real hydration bugs elsewhere in the app. */}
+      <body
+        className="min-h-screen bg-[var(--color-cream)] font-body text-[var(--color-charcoal)] antialiased"
+        suppressHydrationWarning
+      >
         {children}
       </body>
     </html>

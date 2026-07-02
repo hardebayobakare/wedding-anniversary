@@ -87,6 +87,16 @@ body {
   animation: gentle-pulse 2.4s ease-in-out infinite;
 }
 
+@keyframes gift-wiggle {
+  0%, 100% { transform: rotate(-6deg); }
+  50% { transform: rotate(6deg); }
+}
+
+.gift-wiggle {
+  display: inline-block;
+  animation: gift-wiggle 1.6s ease-in-out infinite;
+}
+
 /* Decorative divider */
 .divider-heart::before,
 .divider-heart::after {

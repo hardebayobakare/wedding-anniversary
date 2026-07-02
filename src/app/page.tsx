@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import PersonalMessage from "@/components/PersonalMessage";
 import Timeline from "@/components/Timeline";
 import Reasons from "@/components/Reasons";
+import GiftCard from "@/components/GiftCard";
 import FinalNote from "@/components/FinalNote";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <PersonalMessage />
       <Timeline />
       <Reasons />
+      <GiftCard />
       <FinalNote />
     </main>
   );
