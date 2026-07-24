@@ -85,7 +85,7 @@ export const timelineEvents: TimelineEvent[] = [
     title: "Amirah's Birth",
     description:
       "This time around, there was a lot less drama than with Aisha — but Amirah's arrival was just as amazing and every bit as beautiful. And I have to say it: she looks more you than me. 😉",
-    image: "/photos/timeline-6.svg",
+    image: "/photos/20251102_102604.jpg",
   },
   {
     year: "Year Five",
@@ -93,7 +93,7 @@ export const timelineEvents: TimelineEvent[] = [
     title: "Five Years Strong",
     description:
       "We've made it through five years of marriage, and I couldn't be prouder of us. We've built a life together, and we've built a family together. We've made it through some tough times, and we've made it through some good times. We've made it through it all together, and I couldn't be happier. Alhamdulillahi!",
-    image: "/photos/timeline-7.svg",
+    image: "/photos/Fam.jpeg",
   },
 ];
 
@@ -127,7 +127,7 @@ export const giftCard = {
   heading: "One More Thing…",
   subtext: "A little something extra, just for you.",
   buttonLabel: "Open Your Gift",
-  url: "https://example.com/REPLACE-WITH-YOUR-GIFT-CARD-LINK",
+  url: "https://egft.in/dMPuRlzcaNxn~KT",
 };
 
 // Final closing section.
